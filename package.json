@@ -1,0 +1,21 @@
+{
+  "name": "platziverse-cli",
+  "version": "1.0.0",
+  "description": "A Simple IoT Applications",
+  "bin": "platziverse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "moment": "^2.22.2",
+    "platziverse-agent": "file:../platziverse-agent"
+  }
+}
